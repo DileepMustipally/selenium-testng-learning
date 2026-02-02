@@ -38,7 +38,7 @@ public class InsuranceLoginTest {
         Select titleDropdown = new Select(driver.findElement(By.name("title")));
         titleDropdown.selectByVisibleText("Mr");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/input")).sendKeys("NTR");
+        driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/input")).sendKeys("Jr.NTR");
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/div[1]/input")).sendKeys("Dragon");
