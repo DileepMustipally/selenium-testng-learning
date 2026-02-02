@@ -38,10 +38,10 @@ public class InsuranceLoginTest {
         Select titleDropdown = new Select(driver.findElement(By.name("title")));
         titleDropdown.selectByVisibleText("Mr");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/input")).sendKeys("Jr.NTR");
+        driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/input")).sendKeys("Nandamuri Tarakara Ramarao");
         Thread.sleep(2000);
 
-        driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/div[1]/input")).sendKeys("Dragon");
+        driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/div[1]/input")).sendKeys("NTRNeel31");
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("/html/body/div[3]/form/div[2]/div[2]/input")).sendKeys("0480103624");
